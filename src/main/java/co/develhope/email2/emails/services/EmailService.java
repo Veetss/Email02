@@ -32,7 +32,7 @@ public class EmailService {
                 "<img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' alt='Alternative text' height='200'>" +
                 "<h3>" + text + "</h3>";
 
-        Email from = new Email("vit.vassarotti@outlook.it");
+        Email from = new Email("email@email.com");
         Email to = new Email(email);
         Content content = new Content("html", htmlMsg);
         Mail mail = new Mail(from, title, to, content);
